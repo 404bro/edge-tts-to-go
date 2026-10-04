@@ -7,6 +7,8 @@ service of Microsoft Edge, streaming the audio so playback starts almost
 immediately. Built with Electron; it talks to the service directly and does
 not need Python or the [edge-tts](https://github.com/rany2/edge-tts) package.
 
+![edge-tts-to-go main window](docs/screenshot-en.png)
+
 ## Features
 
 - **Streaming playback**: the text is split into sentence-based segments that

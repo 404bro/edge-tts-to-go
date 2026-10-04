@@ -6,6 +6,8 @@
 几乎可以立即开始收听。基于 Electron 开发，直接与服务通信，不需要 Python，
 也不依赖 [edge-tts](https://github.com/rany2/edge-tts) 包。
 
+![edge-tts-to-go 主界面](docs/screenshot-zh.png)
+
 ## 功能
 
 - **流式播放**：文本按句子分段，只提前合成正在收听位置之后的几段。
