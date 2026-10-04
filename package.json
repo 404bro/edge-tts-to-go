@@ -1,0 +1,37 @@
+{
+  "name": "edge-tts-to-go",
+  "version": "0.1.0",
+  "description": "Streaming text-to-speech desktop app using Microsoft Edge's online TTS service",
+  "main": "src/main/main.js",
+  "license": "LGPL-3.0-only",
+  "author": "Yuezheng Liu",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "smoke": "node scripts/smoke.js",
+    "dist": "electron-builder --win portable"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "electron": "^33.2.1",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "com.edge-tts-to-go.app",
+    "productName": "edge-tts-to-go",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "src/**/*",
+      "package.json",
+      "LICENSE",
+      "COPYING"
+    ],
+    "win": {
+      "target": "portable"
+    }
+  }
+}
