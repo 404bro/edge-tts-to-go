@@ -9,6 +9,7 @@
   "scripts": {
     "start": "electron .",
     "smoke": "node scripts/smoke.js",
+    "icon": "electron scripts/make-icon.js",
     "dist": "electron-builder --win portable"
   },
   "dependencies": {
@@ -31,7 +32,8 @@
       "COPYING"
     ],
     "win": {
-      "target": "portable"
+      "target": "portable",
+      "icon": "src/main/icon.ico"
     }
   }
 }

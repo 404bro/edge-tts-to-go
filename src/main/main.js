@@ -50,6 +50,7 @@ function createWindow() {
     minWidth: 560,
     minHeight: 600,
     backgroundColor: nativeTheme.shouldUseDarkColors ? "#15171B" : "#F6F7F9",
+    icon: path.join(__dirname, "icon.ico"),
     autoHideMenuBar: true,
     webPreferences: {
       preload: path.join(__dirname, "..", "preload", "preload.js"),
