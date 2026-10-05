@@ -69,8 +69,7 @@ scripts/smoke.js          协议冒烟测试
 LGPL-3.0，见 [LICENSE](LICENSE)（其中引用的 GPLv3 全文见 [COPYING](COPYING)）。
 
 `src/main/tts/` 中的协议代码移植自 [edge-tts](https://github.com/rany2/edge-tts)
-（LGPLv3，作者 rany 及贡献者），界面基于其 `examples/desktop_app`，
-因此本项目采用相同的许可证。本项目不包含、也不依赖 edge-tts 包本身。
+（LGPLv3，作者 rany 及贡献者），因此本项目采用相同的许可证。本项目不包含、也不依赖 edge-tts 包本身。
 
 ## 免责声明
 

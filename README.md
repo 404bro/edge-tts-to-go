@@ -84,9 +84,8 @@ it incorporates).
 
 The protocol code in `src/main/tts/` is ported from
 [edge-tts](https://github.com/rany2/edge-tts) (LGPLv3, by rany and
-contributors), and the UI is based on its `examples/desktop_app`, so this
-project uses the same license. It does not include or depend on the edge-tts
-package.
+contributors), so this project uses the same license. It does not include or
+depend on the edge-tts package.
 
 ## Disclaimer
 

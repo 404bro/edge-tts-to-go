@@ -17,9 +17,8 @@ Relationship to edge-tts
 The protocol code in src/main/tts/ (constants.js, drm.js,
 communicate.js, voices.js) is a JavaScript port of parts of edge-tts
 (https://github.com/rany2/edge-tts), Copyright (C) rany and the edge-tts
-contributors, licensed under the LGPLv3. The desktop UI and the sentence
-segmentation are based on the edge-tts example examples/desktop_app.
-As a derivative work, this project is distributed under the same license.
+contributors, licensed under the LGPLv3. As a derivative work, this
+project is distributed under the same license.
 
 edge-tts-to-go does not include or depend on the edge-tts package itself.
 It is not affiliated with, endorsed by or supported by Microsoft; it uses
